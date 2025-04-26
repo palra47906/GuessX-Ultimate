@@ -12,7 +12,6 @@ Play it here: [https://palra47906.github.io/GuessX-Ultimate/](https://palra47906
 - 🔟 **Score System:** Scoring based on number of attempts
 - 📈 **High Score Tracking:** Save your best performance locally
 - 💥 **Confetti Animation:** Celebrate your win with a colorful blast
-- 💨 **Sound Effects:** Fun sounds for success, failure, and high scores
 - 🔬 **Dark Mode:** Toggle between Light and Dark themes
 - ⏳ **Countdown Timer:** You have 60 seconds to guess the number
 - 🌐 **Responsive Design:** Playable on desktop and mobile devices
