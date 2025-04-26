@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎮 GuessX Game - Ultimate Version 🎮</title>
+
+  <!-- 🎉 Confetti Library -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Start Screen -->
+  <div id="startScreen">
+    <h1>🎮 Welcome to <br> GuessX Ultimate 🎮</h1>
+    <button class="glow-button" onclick="beginGame()">Start Game 🚀</button>
+  </div>
+
+  <!-- Game Over Screen -->
+  <div id="gameOverScreen" class="hidden">
+    <h1>💀 Game Over!</h1>
+    <p id="finalMessage"></p>
+    <button class="glow-button" onclick="restartGame()">Play Again 🔄</button>
+  </div>
+
+  <h1>🎯 Guess the Number 🎯</h1>
+
+  <div class="game-container" id="gameContainer">
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    <div id="timer">⏳ 60</div>
+    <p>I'm thinking of a number between 1 and 100...</p>
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+    <button onclick="checkGuess()">Submit Guess</button>
+    <div class="message" id="message"></div>
+    <div class="score" id="score"></div>
+    <div class="highscore" id="highscore"></div>
+  </div>
+
+  <script src="script.js"></script> 
+</body>
+</html>
